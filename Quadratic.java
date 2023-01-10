@@ -8,7 +8,7 @@ public class Quadratic {
         double x2 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
 
         if (Double.isNaN(x1) || Double.isNaN(x2)) {
-            System.out.println("No answers found to the quadratic equation with a=%s, b=%s, c=%s");
+            System.out.println("No answers found to the quadratic equation.");
             System.exit(0);
         }
 
